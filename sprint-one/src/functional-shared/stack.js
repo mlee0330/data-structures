@@ -3,9 +3,8 @@ var Stack = function() {
   // but try not not reference your old code in writing the new style.
   var someInstance = {};
   someInstance.storage = {};
-  someInstance.size = stackMethods.size;
-  someInstance.push = stackMethods.push;
-  someInstance.pop = stackMethods.pop;
+
+  _.extend(someInstance, stackMethods);
 
   return someInstance;
 };
