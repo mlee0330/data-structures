@@ -70,5 +70,4 @@ BinarySearchTree.prototype.depthFirstLog = function(callback) {
  * Complexity: What is the time complexity of the above functions?
    .insert and .contains are O(log(n)
    .depthFirstLog is O(n)
-
  */
